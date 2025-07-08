@@ -14,6 +14,7 @@ full_project_path: str = f'{default_projects_directory}/{project_name}'
 create_directory_if_not_exists(full_project_path)
 change_directory(full_project_path)
 create_file_if_not_exists(full_project_path, 'main.py')
+create_file_if_not_exists(full_project_path, 'requirements.txt')
 
 print(f'{full_project_path}/main.py')
 
